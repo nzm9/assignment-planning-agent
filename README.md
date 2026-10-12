@@ -48,7 +48,9 @@ Download ZIP: On the GitHub repository page, click Code → Download ZIP. Extrac
 git clone: Open terminal
 
 run:
+
 git clone https://github.com/nzm9/assignment-planning-agent.git
+
 cd assignment-planning-agent
 
 2. Create virtual environment
