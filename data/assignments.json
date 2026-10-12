@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "course": "Computer Science",
+    "title": "AI Agent Project",
+    "due": "2026-10-20",
+    "status": "in progress",
+    "estimated_minutes": 180,
+    "completed_minutes": 95,
+    "priority": 5,
+    "remaining_minutes": 85
+  },
+  {
+    "id": 2,
+    "course": "Math",
+    "title": "Problem Set 4",
+    "due": "2026-10-14",
+    "status": "not started",
+    "estimated_minutes": 60,
+    "completed_minutes": 0,
+    "priority": 5,
+    "remaining_minutes": 60
+  },
+  {
+    "id": 3,
+    "course": "English",
+    "title": "Essay Draft",
+    "due": "2026-10-14",
+    "status": "not started",
+    "estimated_minutes": 120,
+    "completed_minutes": 0,
+    "priority": 3,
+    "remaining_minutes": 120
+  },
+  {
+    "id": 4,
+    "course": "Biology",
+    "title": "Chapter 6 Lab Report",
+    "due": "2026-10-19",
+    "status": "not started",
+    "estimated_minutes": 90,
+    "completed_minutes": 0,
+    "priority": 4,
+    "remaining_minutes": 90
+  },
+  {
+    "id": 5,
+    "course": "History",
+    "title": "World War II Reading Response",
+    "due": "2026-10-18",
+    "status": "in progress",
+    "estimated_minutes": 45,
+    "completed_minutes": 15,
+    "priority": 3,
+    "remaining_minutes": 30
+  },
+  {
+    "id": 6,
+    "course": "Physics",
+    "title": "Kinematics Homework",
+    "due": "2026-10-22",
+    "status": "not started",
+    "estimated_minutes": 75,
+    "completed_minutes": 0,
+    "priority": 4,
+    "remaining_minutes": 75
+  },
+  {
+    "id": 7,
+    "course": "Computer Science",
+    "title": "Data Structures Quiz",
+    "due": "2026-10-12",
+    "status": "not started",
+    "estimated_minutes": 45,
+    "completed_minutes": 0,
+    "priority": 3,
+    "remaining_minutes": 45
+  },
+  {
+    "id": 8,
+    "course": "Psychology",
+    "title": "Research Article Summary",
+    "due": "2026-10-14",
+    "status": "not started",
+    "estimated_minutes": 60,
+    "completed_minutes": 0,
+    "priority": 2,
+    "remaining_minutes": 60
+  },
+  {
+    "id": 9,
+    "course": "Chemistry",
+    "title": "Stoichiometry Worksheet",
+    "due": "2026-10-12",
+    "status": "in progress",
+    "estimated_minutes": 60,
+    "completed_minutes": 20,
+    "priority": 4,
+    "remaining_minutes": 40
+  },
+  {
+    "id": 10,
+    "course": "Economics",
+    "title": "Supply and Demand Analysis",
+    "due": "2026-10-26",
+    "status": "not started",
+    "estimated_minutes": 90,
+    "completed_minutes": 0,
+    "priority": 2,
+    "remaining_minutes": 90
+  }
+]
