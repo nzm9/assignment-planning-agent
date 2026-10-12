@@ -125,5 +125,3 @@ Note: Assignment priorities are currently set manually. The agent uses priority 
 - GitHub Copilot SDK
 - JSON for assignment data storage
 - Visual Studio Code
-
-Author: Nazeeha Muhammed
