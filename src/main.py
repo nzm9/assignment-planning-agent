@@ -65,6 +65,11 @@ RULES
 - If a deadline has passed, identify the overdue assignment.
 - For study recommendations, return three ranked options
   when at least three suitable options exist.
+- Format recommendations as three separate numbered lines
+  beginning exactly with "1. ", "2. ", and "3. ".
+- Put each recommendation's assignment title, course, study
+  duration, remaining work, deadline, and reason in its item.
+- Do not use bullets instead of numbered recommendations.
 - Each recommendation must include the assignment, course,
   study duration, remaining work, deadline, and reason.
 - Distinguish partial sessions from completing assignments.
@@ -300,12 +305,14 @@ async def ask_agent(user_request):
                     empty_retries += 1
 
                     if empty_retries > MAX_EMPTY_RETRIES:
-                        print(
-                            "\nThe AI did not return three numbered "
-                            "recommendations."
-                        )
-                        print("Please try again with a narrower request.")
-                        return
+                            print(
+                                "\nThe AI did not return three numbered "
+                                "recommendations."
+                            )
+                            print("\nDEBUG: Last AI answer:")
+                            print(result)
+                            print("\nPlease try again with a narrower request.")
+                            return
 
                     prompt = (
                         "Your previous answer was incomplete. "
