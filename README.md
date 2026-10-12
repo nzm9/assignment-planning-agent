@@ -41,9 +41,15 @@ Note: The agent can make multiple tool calls depending on the user's request, su
 
 <ins> Install <ins>
 
-1. Download the Repository
+1. Download the Repository (Choose either ZIP download or git clone)
 
 Download ZIP: On the GitHub repository page, click Code → Download ZIP. Extract the downloaded files and open the project folder in your terminal or code editor
+
+git clone: Open terminal
+
+run:
+git clone https://github.com/nzm9/assignment-planning-agent.git
+cd assignment-planning-agent
 
 2. Create virtual environment
 
